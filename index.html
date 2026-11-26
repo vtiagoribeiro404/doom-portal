@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portal temático inspirado no universo clássico de DOOM.">
+  <title>DOOM // UAC Archives</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="UAC Archives - início">
+      <span class="brand-mark">UAC</span>
+      <span>UNION AEROSPACE<br><b>ARCHIVES</b></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav id="mainNav">
+      <a href="#inicio">INÍCIO</a>
+      <a href="#universo">UNIVERSO</a>
+      <a href="#jogos">JOGOS</a>
+      <a href="#arquivo">ARQUIVO</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-content">
+        <p class="eyebrow"><span class="status-dot"></span> UAC DATABASE // ACESSO AUTORIZADO</p>
+        <h1>WELCOME TO<br><span>DOOM</span></h1>
+        <p class="hero-copy">Uma central de arquivos dedicada à história, aos jogos e ao legado de uma das franquias mais marcantes dos videogames.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#universo">EXPLORAR ARQUIVOS</a>
+          <a class="button button-ghost" href="#jogos">VER JOGOS</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Ilustração abstrata de um portal tecnológico">
+        <div class="orb orb-outer"></div>
+        <div class="orb orb-inner"></div>
+        <div class="crosshair">+</div>
+        <div class="art-label">MARS // UAC<br>SECTOR 07</div>
+      </div>
+      <div class="hero-bottom"><span>EST. 1993</span><span>CLASSIFIED // UAC</span><span>BUILD  v1.0</span></div>
+    </section>
+
+    <section class="section intro" id="universo">
+      <div class="section-heading">
+        <p class="eyebrow">01 // SOBRE A FRANQUIA</p>
+        <h2>HELL IS <span>NOT</span> THE END.</h2>
+      </div>
+      <div class="intro-grid">
+        <p class="lead">DOOM é uma franquia de jogos de tiro em primeira pessoa conhecida por sua ação intensa, trilha sonora marcante, ambientação de ficção científica e importância na história dos jogos para PC.</p>
+        <div class="terminal">
+          <div class="terminal-head"><span></span><span></span><span></span> UAC_TERMINAL.EXE</div>
+          <div class="terminal-body">
+            <p>&gt; INITIALIZING ARCHIVE...</p>
+            <p>&gt; ACCESS GRANTED</p>
+            <p>&gt; DATABASE: <b>DOOM UNIVERSE</b></p>
+            <p class="terminal-ready">SYSTEM READY<span class="cursor">_</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section games" id="jogos">
+      <div class="section-heading">
+        <p class="eyebrow">02 // LINHA DO TEMPO</p>
+        <h2>SELECT YOUR <span>CAMPAIGN</span></h2>
+        <p class="section-desc">Alguns capítulos importantes da série. Selecione um cartão para consultar uma breve descrição.</p>
+      </div>
+      <div class="game-grid">
+        <button class="game-card" data-title="DOOM (1993)" data-info="O jogo original ajudou a popularizar os jogos de tiro em primeira pessoa no PC. Ficou conhecido por seu ritmo acelerado, fases labirínticas e modo multiplayer em rede.">
+          <span class="game-year">1993</span><span class="game-number">01</span>
+          <span class="game-name">DOOM</span><span class="game-sub">THE ORIGINAL</span>
+          <span class="card-link">ABRIR ARQUIVO ↗</span>
+        </button>
+        <button class="game-card" data-title="DOOM II (1994)" data-info="A continuação expandiu a experiência original com novas fases, desafios e o retorno à luta contra as forças demoníacas.">
+          <span class="game-year">1994</span><span class="game-number">02</span>
+          <span class="game-name">DOOM II</span><span class="game-sub">HELL ON EARTH</span>
+          <span class="card-link">ABRIR ARQUIVO ↗</span>
+        </button>
+        <button class="game-card" data-title="DOOM 3 (2004)" data-info="Uma reimaginação com foco maior em atmosfera, iluminação e suspense, utilizando uma apresentação tecnológica diferente dos jogos clássicos.">
+          <span class="game-year">2004</span><span class="game-number">03</span>
+          <span class="game-name">DOOM 3</span><span class="game-sub">THE DARKNESS</span>
+          <span class="card-link">ABRIR ARQUIVO ↗</span>
+        </button>
+        <button class="game-card" data-title="DOOM (2016)" data-info="O retorno moderno da série recuperou a velocidade e a intensidade dos jogos clássicos, com uma nova apresentação audiovisual.">
+          <span class="game-year">2016</span><span class="game-number">04</span>
+          <span class="game-name">DOOM</span><span class="game-sub">THE REBOOT</span>
+          <span class="card-link">ABRIR ARQUIVO ↗</span>
+        </button>
+        <button class="game-card" data-title="DOOM ETERNAL (2020)" data-info="Continuação que ampliou as mecânicas de movimentação, exploração e combate, com cenários de grande escala.">
+          <span class="game-year">2020</span><span class="game-number">05</span>
+          <span class="game-name">DOOM ETERNAL</span><span class="game-sub">RAISE HELL</span>
+          <span class="card-link">ABRIR ARQUIVO ↗</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="section archive" id="arquivo">
+      <div class="section-heading">
+        <p class="eyebrow">03 // CENTRAL DE INFORMAÇÕES</p>
+        <h2>UAC <span>ARCHIVES</span></h2>
+      </div>
+      <div class="archive-grid">
+        <article class="archive-item"><span class="archive-icon">▦</span><h3>LEGADO</h3><p>A influência de DOOM no design de jogos, no multiplayer e na cultura dos computadores.</p></article>
+        <article class="archive-item"><span class="archive-icon">⌁</span><h3>TRILHA SONORA</h3><p>Músicas marcantes que ajudaram a definir a identidade sonora da franquia.</p></article>
+        <article class="archive-item"><span class="archive-icon">⌘</span><h3>MODDING</h3><p>Uma comunidade criativa que produz mapas, modificações e projetos inspirados nos clássicos.</p></article>
+      </div>
+    </section>
+
+    <section class="notice">
+      <p class="eyebrow">UAC // NOTICE</p>
+      <p>Este é um projeto acadêmico de fã, sem vínculo oficial com a id Software ou com a Bethesda. DOOM é uma propriedade de seus respectivos titulares.</p>
+    </section>
+  </main>
+
+  <footer>
+    <span>UAC ARCHIVES</span>
+    <span>UNOFFICIAL FAN PROJECT // 2026</span>
+    <a href="#inicio">VOLTAR AO TOPO ↑</a>
+  </footer>
+
+  <dialog id="gameDialog">
+    <button class="dialog-close" id="dialogClose" aria-label="Fechar">×</button>
+    <p class="eyebrow">UAC DATABASE // GAME RECORD</p>
+    <h2 id="dialogTitle">GAME TITLE</h2>
+    <p id="dialogText"></p>
+    <button class="button button-primary" id="dialogOk">ENTENDI</button>
+  </dialog>
+  <script src="script.js"></script>
+</body>
+</html>
